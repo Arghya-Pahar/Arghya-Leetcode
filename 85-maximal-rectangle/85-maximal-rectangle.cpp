@@ -70,10 +70,7 @@ public:
                     heights[j]=0;
                 }
             }
-            for(int f=0;f<heights.size();f++)
-            {
-                cout<<heights[f]<<" ";
-            }
+            
             cout<<endl;
             int k=largestarea(heights);
             area=max(area,k);
