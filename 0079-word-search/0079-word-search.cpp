@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool anss=false;
-    void dfs(vector<vector<char>>& board,int i ,int j,int k,string str)
+    void dfs(vector<vector<char>>&board,int i ,int j,int k,string str)
     {
         if(k==str.size())
         {
