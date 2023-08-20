@@ -6,8 +6,6 @@ public:
         dp[0].second=1;
         int vali=1,ans=0;
         map<int,int> mp;
-        cout<<dp[0].first<<" "<<dp[0].second;
-        cout<<endl;
         for(int i=1;i<nums.size();i++)
         {
             priority_queue<pair<int,int>,vector<pair<int,int>>,less<pair<int,int>>> pq;
